@@ -7,10 +7,12 @@
 // Scripts
 // 
 
+
+
 const sidebarClickEvent = function(){
     document.body.classList.toggle('sb-sidenav-toggled');
     localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
-    console.log("test");
+    // console.log("test");
 }
 
 window.addEventListener('DOMContentLoaded', event => {
@@ -75,3 +77,4 @@ window.addEventListener('DOMContentLoaded', event => {
     
 
 });
+
